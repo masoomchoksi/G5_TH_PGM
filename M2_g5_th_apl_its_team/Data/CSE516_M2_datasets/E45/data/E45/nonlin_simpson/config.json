@@ -1,0 +1,53 @@
+{
+  "experiment": "E4-E5",
+  "dataset": "nonlin_simpson",
+  "d": 4,
+  "n_edges": 4,
+  "n_train": 2000,
+  "n_val": 2000,
+  "n_test": 2000,
+  "n_environments": 2,
+  "interventions": [
+    {
+      "env": 0,
+      "intervention_cols": [
+        1
+      ],
+      "reference": [
+        -1.0
+      ],
+      "value": [
+        2.0
+      ],
+      "effect_col": 2,
+      "conditioning_idxs": null,
+      "true_ate_raw": 1.9071,
+      "true_ate_standardised": 1.7526
+    },
+    {
+      "env": 1,
+      "intervention_cols": [
+        1
+      ],
+      "reference": [
+        -1.0
+      ],
+      "value": [
+        2.0
+      ],
+      "effect_col": 2,
+      "conditioning_idxs": [
+        3
+      ],
+      "true_ate_raw": 0.0297,
+      "true_ate_standardised": 0.0273
+    }
+  ],
+  "group_to_col": {
+    "x0": 0,
+    "x1": 1,
+    "x2": 2,
+    "x3": 3
+  },
+  "source": "CSuite, files unmodified"
+}

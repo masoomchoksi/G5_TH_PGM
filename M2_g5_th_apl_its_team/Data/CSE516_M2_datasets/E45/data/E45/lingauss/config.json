@@ -1,0 +1,33 @@
+{
+  "experiment": "E4-E5",
+  "dataset": "lingauss",
+  "d": 2,
+  "n_edges": 1,
+  "n_train": 4000,
+  "n_val": 2000,
+  "n_test": 2000,
+  "n_environments": 1,
+  "interventions": [
+    {
+      "env": 0,
+      "intervention_cols": [
+        0
+      ],
+      "reference": [
+        -1.0
+      ],
+      "value": [
+        1.0
+      ],
+      "effect_col": 1,
+      "conditioning_idxs": null,
+      "true_ate_raw": 0.9926,
+      "true_ate_standardised": 0.993
+    }
+  ],
+  "group_to_col": {
+    "x0": 0,
+    "x1": 1
+  },
+  "source": "CSuite, files unmodified"
+}

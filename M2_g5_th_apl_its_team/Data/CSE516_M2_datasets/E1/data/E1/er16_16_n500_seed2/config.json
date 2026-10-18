@@ -1,0 +1,13 @@
+{
+  "experiment": "E1",
+  "d": 16,
+  "n_edges": 16,
+  "graph": "er",
+  "mechanism": "nonlinear",
+  "noise": "warped",
+  "n_train": 500,
+  "n_test": 2000,
+  "seed": 2,
+  "design": "nested_prefix_of_pool",
+  "n_pool": 5000
+}
