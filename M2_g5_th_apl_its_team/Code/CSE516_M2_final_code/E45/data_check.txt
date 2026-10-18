@@ -1,0 +1,9 @@
+lingauss: d=2 edges=1 train=4000 test=2000 OK
+    env0: do(col [0]: [-1.0] -> [1.0]) effect col 1 cond None  true ATE raw 0.9926  standardised 0.993
+linexp: d=2 edges=1 train=4000 test=2000 OK
+    env0: do(col [0]: [-1.0] -> [1.0]) effect col 1 cond None  true ATE raw 0.9873  standardised 0.9958
+nonlingauss: d=2 edges=1 train=4000 test=2000 OK
+    env0: do(col [0]: [0.0] -> [1.0]) effect col 1 cond None  true ATE raw -1.5532  standardised -1.5486
+nonlin_simpson: d=4 edges=4 train=2000 test=2000 OK
+    env0: do(col [1]: [-1.0] -> [2.0]) effect col 2 cond None  true ATE raw 1.9071  standardised 1.7526
+    env1: do(col [1]: [-1.0] -> [2.0]) effect col 2 cond [3]  true ATE raw 0.0297  standardised 0.0273
