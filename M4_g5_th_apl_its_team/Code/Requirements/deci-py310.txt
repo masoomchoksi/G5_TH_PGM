@@ -1,0 +1,4 @@
+# Causica 0.4.6 requires Python 3.10 in this project.
+causica==0.4.6
+pandas
+numpy

@@ -1,0 +1,8 @@
+# E1 classical baselines, scoring, plots, and table aggregation.
+gcastle
+torch
+pandas
+numpy
+scipy
+matplotlib
+tabulate
