@@ -7,23 +7,14 @@ This repository organizes the code and frozen datasets supplied for experiments 
 ```text
 Code/
 ├── README.md
-├── .gitignore
 ├── requirements/
 │   ├── deci-py310.txt
 │   └── analysis.txt
-├── data/
-│   ├── E1/       # E1 sample-size datasets
-│   ├── E2/       # E2 graph-size datasets
-│   ├── E45/      # CSuite datasets for E4–E5
-│   └── E7/       # frozen missing-data datasets + SHA-256 manifest
 ├── src/
 │   ├── e1/       # E1 training, baselines, metrics, aggregation
 │   ├── e2/       # E2 training, scoring, aggregation
 │   ├── e4_e5/    # CSuite validation, training, aggregation
 │   └── e7/       # E7 baseline + graph-aware extension
-├── docs/
-│   └── validation/e4_e5/  # supplied validation output snapshots
-└── results/     # created when experiments run; excluded from Git
 ```
 
 The source folders intentionally keep experiment-specific copies of similarly named modules (for example, `metrics.py` and `train_deci.py`). E1 and E2/E7 do not use identical versions, so they should not be consolidated or overwritten.
